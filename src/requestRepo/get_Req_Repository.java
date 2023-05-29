@@ -9,7 +9,7 @@ public class get_Req_Repository {
 		return baseURI;
 	}
     public static String resource() {
-    	String resource="/products";
+    	String resource="/products/search?q=Laptop";
     	return resource;
     }
 }

@@ -3,26 +3,11 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="testClassPackage.Post_tc_1">
+      <class name="testClassPackage.TestClass">
         <methods>
           <include name="execute"/>
         </methods>
-      </class> <!-- testClassPackage.Post_tc_1 -->
-      <class name="testClassPackage.Post_tc_3">
-        <methods>
-          <include name="execute"/>
-        </methods>
-      </class> <!-- testClassPackage.Post_tc_3 -->
-      <class name="testClassPackage.Post_tc_4">
-        <methods>
-          <include name="execute"/>
-        </methods>
-      </class> <!-- testClassPackage.Post_tc_4 -->
-      <class name="testClassPackage.Post_tc_2">
-        <methods>
-          <include name="execute"/>
-        </methods>
-      </class> <!-- testClassPackage.Post_tc_2 -->
+      </class> <!-- testClassPackage.TestClass -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
